@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Accounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="xmlSchema.xsd">
+    <Account>
+        <number>1</number>
+        <Cards>
+            <Card>
+                <number>42550</number>
+                <type>debit</type>
+            </Card>
+            <Card>
+                <number>42551</number>
+                <type>credit</type>
+            </Card>
+        </Cards>
+    </Account>
+    <Account>
+        <number>2</number>
+        <Cards>
+            <Card>
+                <number>42552</number>
+                <type>debit</type>
+            </Card>
+        </Cards>
+    </Account>
+</Accounts>

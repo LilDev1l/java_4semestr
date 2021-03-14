@@ -1,0 +1,1 @@
+[{"name":"Bob","account":{"number":1,"balance":0,"cards":{"42550":{"number":42550,"type":"DEBIT"},"42551":{"number":42551,"type":"CREDIT"}}}},{"name":"Eva","account":{"number":2,"balance":0,"cards":{"42552":{"number":42552,"type":"DEBIT"}}}}]

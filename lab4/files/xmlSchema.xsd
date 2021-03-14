@@ -1,0 +1,34 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="number" type="xs:int"/>
+  <xs:element name="type" type="xs:string"/>
+  <xs:element name="Card">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="number"/>
+        <xs:element ref="type"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Cards">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Card" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Account">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="number"/>
+        <xs:element ref="Cards"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Accounts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Account" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
