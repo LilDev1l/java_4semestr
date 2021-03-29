@@ -1,8 +1,7 @@
 package db;
 
-import Library.Author;
-import Library.Book;
-import db.ConnectorDB;
+import library.Author;
+import library.Book;
 
 import java.sql.*;
 import java.util.ArrayList;

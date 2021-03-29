@@ -1,7 +1,5 @@
-package Library;
+package library;
 
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 
 public class Book {

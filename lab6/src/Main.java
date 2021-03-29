@@ -1,5 +1,5 @@
-import Library.Author;
-import Library.Book;
+import library.Author;
+import library.Book;
 import db.DBHelper;
 
 import java.sql.PreparedStatement;
