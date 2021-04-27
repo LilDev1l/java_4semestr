@@ -52,8 +52,9 @@ public class Account implements Blocking {
             balance += sum;
         }
         public void payment(int sum) throws Exception {
-            if (balance < sum)
+            if (balance < sum) {
                 throw new Exception("Недостаточно средств");
+            }
             balance -= sum;
         }
         @Override

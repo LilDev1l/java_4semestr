@@ -1,10 +1,12 @@
 package by.belstu.it.yarmolik.lab3.main;
 
+//region import
 import by.belstu.it.yarmolik.lab3.account.Account;
 import by.belstu.it.yarmolik.lab3.account.TypeCard;
 import by.belstu.it.yarmolik.lab3.сontrol.Admin;
 import by.belstu.it.yarmolik.lab3.сontrol.Client;
 import java.util.logging.Logger;
+//endregion
 
 public class Main {
     private static final Logger LOG = Logger.getLogger(Main.class.getName());
