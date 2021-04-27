@@ -16,10 +16,10 @@ public class ConnectorDB {
         String dbname = resource.getString("db.dbname");
 
         Properties prop = new Properties();
+
         prop.put("user", user);
         prop.put("password", pass);
         prop.put("dbname", dbname);
-
         return DriverManager.getConnection(url, prop);
     }
 }
