@@ -21,7 +21,7 @@ public class ShowerVisitor implements Runnable{
             int durationInShower = new Random().nextInt(2000) + 3000;
             Gender gender = genders[new Random().nextInt(2)];
             Person person = new Person(gender);
-            System.out.println("Сгенирирован следующий посетитель душа: " + person + "; Время в душе: " + durationInShower);
+            System.out.println("\nСгенирирован следующий посетитель душа: " + person + "; Время в душе: " + durationInShower);
             //endregion
 
             shower.personGoInShower(person);
