@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c98c920b-d763-446f-9606-2a5cb383dfbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/by/belstu/it/yarmolik/basejava/JavaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/src/task2/NetClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/src/task2/NetServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/src/task2/SocketThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/src/task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/src/task3/Recipient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/src/task3/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lab4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2" beforeDir="false" afterPath="$PROJECT_DIR$/lab2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/lab2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/stax/StaxStreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/stax/StaxStreamProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/src/task1/shower/ShowerVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/task1/shower/ShowerVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/db/ConnectorDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/db/ConnectorDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/library/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/library/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rkgYvmbG33Y66WOn3s3VuADQdS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1619525557479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619525557479</updated>
+      <workItem from="1619525562567" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

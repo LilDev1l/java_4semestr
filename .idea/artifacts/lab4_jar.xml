@@ -3,10 +3,10 @@
     <output-path>$PROJECT_DIR$/out/artifacts/lab4_jar</output-path>
     <root id="archive" name="lab4.jar">
       <element id="module-output" name="lab4" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lab4/libs/jackson-databind-2.10.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lab4/libs/log4j.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lab4/libs/jackson-annotations-2.10.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lab4/libs/jackson-core-2.10.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lab4/libs/jackson-annotations-2.10.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lab4/libs/jackson-databind-2.10.3.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
