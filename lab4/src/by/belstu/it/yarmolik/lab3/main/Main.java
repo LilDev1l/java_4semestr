@@ -11,8 +11,6 @@ import java.util.stream.Collectors;
 //endregion
 
 public class Main {
-    private static final Logger LOG = Logger.getLogger(Main.class.getName());
-
     public static void main(String[] args) throws Exception {
         Admin admin = new Admin();
 

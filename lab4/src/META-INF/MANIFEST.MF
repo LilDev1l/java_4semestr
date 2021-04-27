@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: by.belstu.it.yarmolik.lab3.main.Main
+task1.Main-Class: by.belstu.it.yarmolik.lab3.main.task1.Main
 

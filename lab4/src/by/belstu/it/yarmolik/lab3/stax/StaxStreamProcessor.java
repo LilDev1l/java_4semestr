@@ -68,7 +68,7 @@ public class StaxStreamProcessor implements AutoCloseable {
         }
     }
 
-    public static void xmlParse(Admin admin) throws IOException, XMLStreamException {
+    public static void  xmlParse(Admin admin) throws IOException, XMLStreamException {
         try (StaxStreamProcessor processor = new StaxStreamProcessor(Files.newInputStream(Path.of("files/accounts.xml")))) {
             XMLStreamReader reader = processor.getReader();
             while (processor.startElement("Account", "Accounts")) {
