@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet("/task1")
+@WebServlet("/getDate")
 public class GetDate extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -23,11 +23,8 @@ public class GetDate extends HttpServlet {
         out.println("<meta charset=\"utf-8\">");
         out.println("</head>");
         out.println("<body>\n" +
-                "<h1 align=center>" + "Lab 9 task 2a" + "</h1>\n" +
-                "<table border=1 align=center>\n" +
-                "<tr bgcolor=\"#FFAD00\">\n" +
-                "<th>Header Name<th>Header Value" +
-                "<tr><td> Time    <td>" + date.toString() +
+                "<p>Time: " + date.toString() +
+                "<table border=1\n" +
                 "<tr><td> Protocol    <td>" + request.getProtocol() +
                 "<tr><td> IP client   <td>" + request.getRemoteAddr() +
                 "<tr><td> IP server   <td>" + addr.getHostAddress() +

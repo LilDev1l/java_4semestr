@@ -5,6 +5,6 @@
   <title>Lab9</title>
 </head>
 <body>
-  <a href="/task1">Текущее время</a>
+  <a href="/lab9/getDate">Текущее время</a>
 </body>
 </html>
