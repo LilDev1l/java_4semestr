@@ -1,4 +1,4 @@
-package com.example.lab9;
+package com.example.lab9.servlet;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -6,9 +6,10 @@ import java.time.LocalTime;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet("/getDate")
+@WebServlet(name = "GetDate", value = "/getDate")
 public class GetDate extends HttpServlet {
 
+    @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         LocalTime date = LocalTime.now();
         InetAddress addr = InetAddress.getLocalHost();
@@ -32,7 +33,8 @@ public class GetDate extends HttpServlet {
                 "<tr><td> Port name    <td>" + request.getLocalPort() +
                 "<tr><td> Method name    <td>" + request.getMethod()
         );
-        out.println("</table></body></html>");
+        out.println("</table>");
+        out.println("</br><a href='/lab9'>Back</a>");
         out.println("</body></html>");
     }
 

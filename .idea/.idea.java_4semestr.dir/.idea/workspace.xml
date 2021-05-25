@@ -2,30 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98c920b-d763-446f-9606-2a5cb383dfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/by/belstu/it/yarmolik/basejava/JavaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/src/task2/NetClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/src/task2/NetServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/src/task2/SocketThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/src/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/src/task3/Recipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/src/task3/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lab4_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2" beforeDir="false" afterPath="$PROJECT_DIR$/lab2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/src/lab2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/by/belstu/it/yarmolik/lab3/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/stax/StaxStreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/by/belstu/it/yarmolik/lab3/stax/StaxStreamProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/task1/shower/ShowerVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/task1/shower/ShowerVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/db/ConnectorDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/db/ConnectorDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/library/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/library/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab8/src/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/db/ConnectorDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/db/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/db/DBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/db/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/db/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/servlets/GetHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/servlets/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/servlets/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/src/main/webapp/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/GetDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab9/src/main/java/com/example/lab9/servlets/GetDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab9/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/lab9/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619525557479</updated>
       <workItem from="1619525562567" duration="3000" />
+      <workItem from="1621678391868" duration="2000" />
     </task>
     <servers />
   </component>

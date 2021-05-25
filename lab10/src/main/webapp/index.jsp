@@ -5,12 +5,10 @@
   <title>Lab9</title>
 </head>
 <body>
-  <a href="getDate">Текущее время</a>
-  <br/>
-  <a href="getHeader">Заголовки запроса</a>
-  <br/>
+  <jsp:include page="/header.jsp" />
   <a href="auth">Авторизация</a>
   <br/>
   <a href="cookies">Получить куки</a>
+  <jsp:include page="/footer.jsp" />
 </body>
 </html>

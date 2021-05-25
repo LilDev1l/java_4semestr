@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lab8/FirstWebApp/FirstWebApp.iml" filepath="$PROJECT_DIR$/lab8/FirstWebApp/FirstWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab11/greeter/greeter.iml" filepath="$PROJECT_DIR$/lab11/greeter/greeter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_4semestr.iml" filepath="$PROJECT_DIR$/.idea/java_4semestr.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab10/lab10.iml" filepath="$PROJECT_DIR$/lab10/lab10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab11/lab11.iml" filepath="$PROJECT_DIR$/lab11/lab11.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/lab2.iml" filepath="$PROJECT_DIR$/lab2/lab2.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab4/lab4.iml" filepath="$PROJECT_DIR$/lab4/lab4.iml" />
@@ -13,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/lab7/lab7.iml" filepath="$PROJECT_DIR$/lab7/lab7.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab8/lab8.iml" filepath="$PROJECT_DIR$/lab8/lab8.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab9/lab9.iml" filepath="$PROJECT_DIR$/lab9/lab9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab11/targets/targets.iml" filepath="$PROJECT_DIR$/lab11/targets/targets.iml" />
     </modules>
   </component>
 </project>

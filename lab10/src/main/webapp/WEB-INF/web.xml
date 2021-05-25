@@ -6,7 +6,7 @@
 
     <filter>
         <filter-name>AuthFilter</filter-name>
-        <filter-class>com.example.lab9.filter.AuthFilter</filter-class>
+        <filter-class>com.example.lab10.filter.AuthFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>AuthFilter</filter-name>
@@ -14,21 +14,12 @@
     </filter-mapping>
 
     <servlet>
-        <servlet-name>User</servlet-name>
-        <jsp-file>/user.jsp</jsp-file>
+        <servlet-name>Welcome</servlet-name>
+        <jsp-file>/welcome.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>User</servlet-name>
-        <url-pattern>/auth/user</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>Admin</servlet-name>
-        <jsp-file>/admin.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Admin</servlet-name>
-        <url-pattern>/auth/admin</url-pattern>
+        <servlet-name>Welcome</servlet-name>
+        <url-pattern>/auth/welcome</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -40,5 +31,8 @@
         <url-pattern>/auth/login</url-pattern>
     </servlet-mapping>
 
+    <error-page>
+        <error-code>404</error-code>
+        <location>/errorPage.jsp</location>
+    </error-page>
 </web-app>
-
