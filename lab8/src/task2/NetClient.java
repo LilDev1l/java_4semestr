@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class NetClient {
     public static void main(String[] args) throws IOException {
-
             Socket socket = new Socket(InetAddress.getLocalHost(), 7068);
             BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintStream output = new PrintStream(socket.getOutputStream());
