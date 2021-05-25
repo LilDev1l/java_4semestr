@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example</groupId>
+    <artifactId>lab11</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <modules>
+                <module>targets</module>
+                <module>greeter</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>nomodule</id>
+        </profile>
+    </profiles>
+
+<!--    Плагин для проверки того, что все зависимости используют самые последнии версии.
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.soebes.maven.plugins</groupId>
+                <artifactId>uptodate-maven-plugin</artifactId>
+                <version>0.2.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>dependency</goal>
+                        </goals>
+                        <phase>validate</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>-->
+
+
+    <!--
+        Команды в консоли:
+            Использование Archetype
+            mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+            Компиляция без модулей
+            mvn clean install -Pnomodule
+
+            Компиляция с модулями
+            mvn clean install-->
+    </project>
