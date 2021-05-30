@@ -1,5 +1,6 @@
 package com.example.lab10.servlet;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -16,16 +17,6 @@ import java.util.stream.Collectors;
 public class GetCookiesServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Cookie[] cookies = request.getCookies();
-
-        PrintWriter pw = response.getWriter();
-        pw.println("<html>");
-
-        for (Cookie cookie :
-                cookies) {
-            pw.println("<p>" + cookie.getName() + " : " + cookie.getValue() + "</p>");
-        }
-
-        pw.println("</html>");
+        getServletContext().getRequestDispatcher("/cookies.jsp").forward(request, response);
     }
 }
