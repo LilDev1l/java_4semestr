@@ -12,6 +12,7 @@
         <module name="targets" />
         <module name="lab9" />
         <module name="greeter" />
+        <module name="lab14" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="lab11" target="8" />
       <module name="lab12" target="1.8" />
       <module name="lab13" target="1.8" />
+      <module name="lab14" target="1.8" />
       <module name="lab9" target="1.8" />
       <module name="targets" target="8" />
     </bytecodeTargetLevel>

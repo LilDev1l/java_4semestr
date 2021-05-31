@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/lab10" />
     <file type="web" url="file://$PROJECT_DIR$/lab12" />
     <file type="web" url="file://$PROJECT_DIR$/lab13" />
+    <file type="web" url="file://$PROJECT_DIR$/lab14" />
     <file type="web" url="file://$PROJECT_DIR$/lab8/FirstWebApp" />
     <file type="web" url="file://$PROJECT_DIR$/lab9" />
   </component>
@@ -15,6 +16,7 @@
         <option value="$PROJECT_DIR$/lab11/pom.xml" />
         <option value="$PROJECT_DIR$/lab12/pom.xml" />
         <option value="$PROJECT_DIR$/lab13/pom.xml" />
+        <option value="$PROJECT_DIR$/lab14/pom.xml" />
       </list>
     </option>
   </component>
