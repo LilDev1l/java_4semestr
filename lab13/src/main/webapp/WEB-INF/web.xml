@@ -4,35 +4,16 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <filter>
-        <filter-name>AuthFilter</filter-name>
-        <filter-class>com.example.lab10.filter.AuthFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>AuthFilter</filter-name>
-        <url-pattern>/auth/*</url-pattern>
-    </filter-mapping>
-
     <servlet>
-        <servlet-name>Welcome</servlet-name>
-        <jsp-file>/welcome.jsp</jsp-file>
+        <servlet-name>controller</servlet-name>
+        <servlet-class>com.example.lab13.controller.Controller</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Welcome</servlet-name>
-        <url-pattern>/auth/welcome</url-pattern>
+        <servlet-name>controller</servlet-name>
+        <url-pattern>/controller</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>Login</servlet-name>
-        <jsp-file>/login.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Login</servlet-name>
-        <url-pattern>/auth/login</url-pattern>
-    </servlet-mapping>
-
-    <error-page>
-        <error-code>404</error-code>
-        <location>/errorPage.jsp</location>
-    </error-page>
+    <welcome-file-list>
+        <welcome-file>/WEB-INF/views/login.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
