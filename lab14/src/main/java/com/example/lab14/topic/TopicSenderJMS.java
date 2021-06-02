@@ -3,10 +3,7 @@ package com.example.lab14.topic;
 import com.sun.messaging.ConnectionConfiguration;
 import com.sun.messaging.ConnectionFactory;
 
-import javax.jms.Destination;
-import javax.jms.JMSContext;
-import javax.jms.JMSException;
-import javax.jms.JMSProducer;
+import javax.jms.*;
 
 
 public class TopicSenderJMS {
@@ -19,7 +16,11 @@ public class TopicSenderJMS {
             Destination priceInfo= context.createTopic("PriceInfo");
 
             JMSProducer producer = context.createProducer();
-            producer.send(priceInfo,"Epam 100.22");
+            TextMessage outMsg = context.createTextMessage();
+            outMsg.setText("{'symbol' : 'BTCUSD'" +
+                            "'price' : 35478}");
+            outMsg.setStringProperty("symbol", "BTCUSD");
+            producer.send(priceInfo, outMsg);
             System.out.println("Placed an information about to PriceInfo");
         } catch (JMSException e){
             System.out.println("Error: " + e.getMessage());

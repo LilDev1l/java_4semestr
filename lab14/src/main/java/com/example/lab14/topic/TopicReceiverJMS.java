@@ -15,7 +15,7 @@ public class TopicReceiverJMS implements MessageListener {
                                 "mq://127.0.0.1:7676,mq://127.0.0.1:7676");
             Destination priceInfo= context.createTopic("PriceInfo");
 
-            consumer = context.createConsumer(priceInfo);
+            consumer = context.createConsumer(priceInfo, "symbol=BTCUSD");
 
             consumer.setMessageListener(this);
             System.out.println("Listening to thePriceInfo...");
