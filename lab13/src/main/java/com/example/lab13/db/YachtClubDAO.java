@@ -18,28 +18,24 @@ public class YachtClubDAO extends DAO<YachtClub,Integer> {
 
     @Override
     public String getSelectQuery() {
-        return "use Java_EE;\n" +
-                "SELECT * FROM YachtClub";
+        return "SELECT * FROM YachtClub";
     }
 
     @Override
     public String getCreateQuery() {
-        return "use Java_EE;\n" +
-                "INSERT INTO YachtClub (name, price) VALUES (?, ?);";
+        return "INSERT INTO YachtClub (name, price) VALUES (?, ?);";
     }
 
     @Override
     public String getUpdateQuery() {
-        return "use Java_EE;\n" +
-                "UPDATE YachtClub\n" +
-                "SET name = ?, price  = ?\n" +
+        return "UPDATE YachtClub " +
+                "SET name = ?, price  = ? " +
                 "WHERE id = ?;";
     }
 
     @Override
     public String getDeleteQuery() {
-        return "use Java_EE;\n" +
-                "DELETE FROM YachtClub WHERE id= ?;";
+        return "DELETE FROM YachtClub WHERE id= ?;";
     }
 
     @Override

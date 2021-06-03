@@ -17,28 +17,27 @@ public class ContextListener implements ServletContextListener {
     private YachtClubDAO yachtClubDAO;
 
     @Override
-    public void contextInitialized(ServletContextEvent servletContextEvent) {
-        Connection connection = null;
+    public void contextInitialized(ServletContextEvent servletContextEvent) { Connection connection = null;
         try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            connection = DriverManager.getConnection("jdbc:sqlserver://localhost;user=user;password=max");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/java", "root", "");
         } catch (SQLException | ClassNotFoundException throwables) {
             throwables.printStackTrace();
         }
         userDAO = new UserDAO(connection);
-        yachtClubDAO = new YachtClubDAO(connection);
+        //yachtClubDAO = new YachtClubDAO(connection);
 
         final ServletContext servletContext = servletContextEvent.getServletContext();
 
         servletContext.setAttribute("userDAO", userDAO);
-        servletContext.setAttribute("yachtClubDAO", yachtClubDAO);
+        //servletContext.setAttribute("yachtClubDAO", yachtClubDAO);
     }
 
     @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
         try {
             userDAO.closeConnection();
-            yachtClubDAO.closeConnection();
+            //yachtClubDAO.closeConnection();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }

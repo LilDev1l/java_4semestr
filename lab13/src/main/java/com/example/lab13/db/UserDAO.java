@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAO extends DAO<User,Integer> {
+    public class UserDAO extends DAO<User,Integer> {
 
     public UserDAO(Connection connection) {
         super(connection);
@@ -18,28 +18,24 @@ public class UserDAO extends DAO<User,Integer> {
 
     @Override
     public String getSelectQuery() {
-        return "use Java_EE;\n" +
-                "SELECT * FROM Users";
+        return "SELECT * FROM Users;";
     }
 
     @Override
     public String getCreateQuery() {
-        return "use Java_EE;\n" +
-                "INSERT INTO Users (login, password) VALUES (?, ?);";
+        return "INSERT INTO Users (login, password) VALUES (?, ?);";
     }
 
     @Override
     public String getUpdateQuery() {
-        return "use Java_EE;\n" +
-                "UPDATE Users\n" +
-                "SET login = ?, password  = ?\n" +
+        return  "UPDATE Users " +
+                "SET login = ?, password  = ? " +
                 "WHERE id = ?;";
     }
 
     @Override
     public String getDeleteQuery() {
-        return "use Java_EE;\n" +
-                "DELETE FROM Users WHERE id= ?;";
+        return "DELETE FROM Users WHERE id= ?;";
     }
 
     @Override

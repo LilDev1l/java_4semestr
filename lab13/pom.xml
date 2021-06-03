@@ -41,9 +41,9 @@
           <version>1.15</version>
       </dependency>
       <dependency>
-          <groupId>com.microsoft.sqlserver</groupId>
-          <artifactId>mssql-jdbc</artifactId>
-          <version>6.2.1.jre8</version>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.25</version>
       </dependency>
       <dependency>
           <groupId>jstl</groupId>
@@ -54,10 +54,11 @@
 
   <build>
       <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.1</version>
-      </plugin>                </plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.1</version>
+          </plugin>
+      </plugins>
   </build>
 </project>
