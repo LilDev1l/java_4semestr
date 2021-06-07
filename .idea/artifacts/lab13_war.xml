@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="lab13-1.0-SNAPSHOT.war">
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
       <element id="artifact" artifact-name="lab13:war exploded" />
     </root>
   </artifact>
